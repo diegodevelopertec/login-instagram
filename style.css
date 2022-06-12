@@ -1,0 +1,136 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: 80vw;
+   
+   
+}
+
+.cxs{
+    margin-top: 20px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height:80vh;
+   width: 80vw;
+}
+
+.cx-1{
+
+width: 36rem;
+    display: flex;
+
+  
+}
+.cx-1 img{
+    height: 50rem;
+}
+.cx-2{
+ 
+    flex: 3;
+   justify-content: center;
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.cx-box{
+    box-shadow: 0px 0px 5px rgb(216, 215, 215);
+}
+
+.cx-user{
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+
+
+.user-photo{
+    max-width: 90px;
+    max-height: 90px;
+    border-radius: 100%;
+    padding-top: 20px;
+
+}
+
+.continue-perfil{
+    margin-top: 20px;
+    background-color: rgb(62, 62, 236);
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.remove-account{
+    color: blue;
+   margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.cx-account-verify{
+    padding-top: 15px;
+    margin-top: 15px;
+    width: 300px;
+ padding-bottom: 15px;
+    text-align: center;
+   
+}
+
+.link-grey{
+    color: rgba(128, 128, 128, 0.588);
+}
+.link-blue{
+    color: rgb(8, 8, 180);
+}
+
+.down-app{
+    margin-top: 15px;
+    text-align: center;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.images{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+.btn-img img{
+ width:100px;
+    height: 40px;
+}
+.btn-pay{
+    margin-right: 6px;
+}
+
+@media screen and (max-width:900px){
+    
+    .cxs{
+        text-align: center;
+        flex-direction:column;
+    }
+    .cx-1{
+        display: none;
+        justify-content: center;
+    }
+}
